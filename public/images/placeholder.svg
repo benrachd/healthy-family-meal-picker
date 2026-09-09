@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Meal photo">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0EBE3"/>
+      <stop offset="100%" stop-color="#E8DFD4"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F0EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <ellipse cx="400" cy="310" rx="200" ry="60" fill="#2D6A4F" opacity="0.08"/>
+  <ellipse cx="400" cy="280" rx="160" ry="160" fill="url(#plate)" stroke="#E0D5C8" stroke-width="2"/>
+  <circle cx="360" cy="260" r="28" fill="#40916C" opacity="0.7"/>
+  <circle cx="420" cy="250" r="22" fill="#E76F51" opacity="0.75"/>
+  <circle cx="390" cy="300" r="18" fill="#F4A261" opacity="0.8"/>
+  <circle cx="440" cy="290" r="14" fill="#40916C" opacity="0.6"/>
+  <path d="M320 200 Q400 160 480 200" stroke="#40916C" stroke-width="3" fill="none" opacity="0.4" stroke-linecap="round"/>
+</svg>
