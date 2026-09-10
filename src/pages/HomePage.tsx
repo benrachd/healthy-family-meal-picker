@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { CategoryCard } from '../components/CategoryCard'
+import { InstallAppButton } from '../components/InstallAppButton'
 import { QuickPickCard } from '../components/QuickPickCard'
 import { SearchBar } from '../components/SearchBar'
 import { SectionHeading } from '../components/ui'
@@ -29,6 +30,8 @@ export function HomePage() {
           Healthy ideas for busy family days.
         </p>
       </header>
+
+      <InstallAppButton />
 
       <SearchBar />
 
